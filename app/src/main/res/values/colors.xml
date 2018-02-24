@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#F08080</color>
+    <color name="white">#ffffff</color>
+    <color name="button_info_pressed">#F08080</color>
+    <color name="button_positive_pressed">#F08080</color>
+    <color name="button_info">#265562</color>
+    <color name="button_positive_disabled">#578548</color>
+    <color name="button_negative_pressed">#ff0000</color>
+    <color name="button_negative_disabled">#88FF0000</color>
+    <color name="button_negative">#22FF0000</color>
+</resources>

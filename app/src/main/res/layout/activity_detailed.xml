@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbada0"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@drawable/cv_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="个人作品"
+        android:textColor="#F08080"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:background="@drawable/cv_shape"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#F08080"
+            android:layout_weight="1"
+            android:text="个人网站:"
+             />
+
+        <TextView
+            android:id="@+id/tv_website"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:onClick="clipWebsite"
+            android:text="www.lizihanglove.website"
+            android:textColor="#F08080" />
+    </LinearLayout>
+    <TextView
+        android:background="@drawable/cv_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="联系方式"
+        android:textColor="#F08080"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:background="@drawable/cv_shape"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#F08080"
+            android:layout_weight="1"
+            android:text="微信:"
+            />
+
+        <TextView
+            android:id="@+id/tv_wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="clipWechat"
+            android:text="lizihanglove"
+            android:textColor="#F08080" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:background="@drawable/cv_shape"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#F08080"
+
+            android:layout_weight="1"
+            android:text="微博:"
+            />
+
+        <TextView
+            android:id="@+id/tv_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:onClick="clipWeibo"
+            android:text="resonant_bay"
+            android:textColor="#F08080" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#bbada0"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_vibrate"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_play_music"
+        android:background="@drawable/bg_shape"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_update"
+        android:background="@drawable/bg_shape"
+        android:text="版本更新"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_about"
+        android:text="关于应用"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
